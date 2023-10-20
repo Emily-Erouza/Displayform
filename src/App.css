@@ -1,0 +1,79 @@
+.login-form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="surname"],
+input[type="password"] {
+  width: 40%;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  width: 10%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* .display-form {
+  text-align: center;
+} */
+
+
+.table-form{
+  width: 44%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px rgb(94, 91, 91);
+}
+
+table {
+  width: 40%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+}
+
+ th,
+td {
+  padding: 15px;
+  width: 50%;
+  height: 100%;
+  text-align: left;
+} 
+
+th {
+  background-color: #333;
+  color: #fff;
+  margin: 50%;
+  box-shadow: 10px 10px 5px rgb(184, 175, 175);
+}
+
+
+
+
+
+
